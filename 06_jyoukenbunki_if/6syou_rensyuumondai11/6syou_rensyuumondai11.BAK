@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(void)
+{
+	/* •Ï”‚ÌéŒ¾‚Æ”’l‚Ì“ü—Í */
+	int a;
+	scanf("%d",&a);
+	
+	
+	/* if•¶‚Ìì¬ */
+	if(a < 20){
+		printf("Under 20");
+	}else {
+		if(a < 50){
+		printf("20 - 49");
+	}else {
+		printf("50 or more");
+	}
+	}
+	return 0;
+}
